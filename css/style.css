@@ -23,6 +23,17 @@
      --background-color: #F7F7F7;
  }
 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+     margin: 0;
+     padding: 0;
+ }
+
  .text-h2 {
      font-family: 'Oswald', sans-serif;
      font-weight: 500;
@@ -129,3 +140,36 @@
      line-height: normal;
      text-transform: uppercase;
  }
+
+ .about {
+    min-height: 1080px;
+    position: relative;
+ }
+
+ .info {
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    max-width: 1110px;
+    min-height: 300px;
+    width: 100%;
+    transform: translateX(-50%);
+    background-color: var(--background-color);
+    padding: 57px 130px;
+ }
+
+ .container {}
+
+ .about__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+ }
+
+ .about__grid-item {}
+
+ .about-h4 {}
+
+ .about-h5 {}
+
+ .abou-p {}
