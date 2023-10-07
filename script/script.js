@@ -1,6 +1,8 @@
-let king = 'King Balon the 6th';
-let countKing = 6;
-let allCastels = 17;
-let result = countKing * allCastels;
+let info = "We couldn't verify your mother's maiden name.";
+let intro = 'Here is important information about your account security.';
 
-console.log(king + ' has ' + result + ' rooms');
+let firstName = 'Joffrey';
+let greeting = 'Hello';
+console.log(greeting +', ' + firstName + '!');
+console.log(intro + '\n' + info);
+// console.log(info);
