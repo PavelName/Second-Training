@@ -6,6 +6,7 @@
 // console.log(greeting +', ' + firstName + '!');
 // console.log(intro + '\n' + info);
 // // console.log(info);
-const name = 'Na\nharis';
+const name = 'Name\\FirsH';
+
 console.log(name[name.length-1]);
 console.log(typeof name);
