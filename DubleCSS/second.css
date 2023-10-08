@@ -80,11 +80,11 @@ p {
 }
 
 .header__title {
-    padding-top: 20px;
-    margin-bottom: 112px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding-top: 20px;
+    margin-bottom: 112px;
 }
 
 .logo {
