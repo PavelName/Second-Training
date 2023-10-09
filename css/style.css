@@ -14,6 +14,10 @@
      font-weight: 400;
  }
 
+ img {
+     display: block;
+     max-width: 100%;
+ }
 
  :root {
      --accent-color: #F7654A;
@@ -142,6 +146,7 @@
  }
 
  .about {
+     padding-top: 250px;
      min-height: 1080px;
      position: relative;
  }
@@ -172,7 +177,7 @@
  }
 
  .about-h4 {
-     color:var(--accent-color);
+     color: var(--accent-color);
      text-align: center;
      font-size: 72px;
      font-style: normal;
@@ -182,7 +187,7 @@
  }
 
  .about-h5 {
-     color:var(--dark-color);
+     color: var(--dark-color);
      text-align: center;
      font-size: 36px;
      font-style: normal;
@@ -192,7 +197,7 @@
  }
 
  .about-p {
-     color:var(--gray-color);
+     color: var(--gray-color);
      text-align: center;
      font-size: 18px;
      font-style: normal;
@@ -200,19 +205,93 @@
      line-height: normal;
  }
 
- /* media queries */
- @media screen and (max-width: 1280px){
-    .about__grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }  
+
+
+
+ .project-h2 {
+     text-align: center;
+     margin-bottom: 50px;
  }
- @media screen and (max-width: 780px){
-    .info {
-        position: relative;
-    }
-    .about__grid {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-    }  
+
+ .about__flex {
+     display: flex;
+
+ }
+
+ .about__flex-item {
+     max-width: 350px;
+     margin-right: 30px;
+ }
+
+ .about__flex-item:last-child {
+     margin-right: 0;
+ }
+
+ .project-img {
+     margin-bottom: 45px;
+
+ }
+
+ .about-line {
+     width: 55px;
+     height: 6px;
+     background-color: var(--accent-color);
+     margin-bottom: 15px;
+ }
+
+ .project-h3 {
+     color: var(--dark-color);
+     margin-bottom: 20px;
+ }
+
+ .project-p {
+     color: var(--gray-color);
+ }
+
+ /* media queries */
+ @media screen and (max-width: 1280px) {
+     .about__grid {
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: repeat(2, 1fr);
+     }
+ }
+
+ @media screen and (max-width: 780px) {
+     .info {
+         position: relative;
+     }
+
+     .about__grid {
+         grid-template-columns: repeat(1, 1fr);
+         grid-template-rows: repeat(1, 1fr);
+     }
+ }
+
+ /* media about*/
+ @media screen and (max-width: 1280px) {
+     .about {
+         padding: 450px 15px 110px 15px;
+     }
+ }
+
+ @media screen and (max-width: 780px) {
+     .about {
+         padding-top: 150px;
+         padding-bottom: 80px;
+         
+     }
+
+     .about__flex {
+        flex-direction: column;
+         align-items: center;
+     }
+     .about__flex-item {
+        margin-right: 0;
+        margin-bottom: 30px;
+     }
+
+     .about__flex-item:last-child {
+        margin-bottom: 30px;
+     }
+
  }
