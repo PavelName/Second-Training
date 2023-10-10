@@ -248,6 +248,78 @@
      color: var(--gray-color);
  }
 
+ .request {
+     background-color: var(--accent-color);
+ }
+
+ .request__grid {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+ }
+
+ .request__grid-item {
+    max-width: 537px;
+ }
+
+
+ .request-h2 {
+     padding-top: 30px;
+     text-transform: uppercase;
+     color: #FFF;
+     font-family: Oswald;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 0.96px;
+ }
+
+ .request-p {
+     margin-bottom: 45px;
+     color: #FFF;
+     font-family: Oswald;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 0.48px;
+     text-transform: uppercase;
+ }
+
+ .requect__button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* width: 149px;
+    height: 50px; */
+    padding: 14px 30px;
+    background-color: #FFF;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    /* font-style: 14px;
+    font-weight: 500; */
+ }
+
+ .request__button-img {
+    margin-right: 15px;
+  
+ }
+
+ .request__button-p {
+    color: #000;
+font-family: Oswald;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.7px;
+ }
+
+
+
  /* media queries */
  @media screen and (max-width: 1280px) {
      .about__grid {
@@ -278,20 +350,34 @@
      .about {
          padding-top: 150px;
          padding-bottom: 80px;
-         
+
      }
 
      .about__flex {
-        flex-direction: column;
+         flex-direction: column;
          align-items: center;
      }
+
      .about__flex-item {
-        margin-right: 0;
-        margin-bottom: 30px;
+         margin-right: 0;
+         margin-bottom: 30px;
      }
 
      .about__flex-item:last-child {
-        margin-bottom: 30px;
+         margin-bottom: 30px;
      }
 
  }
+ /* media request */
+ @media screen and (max-width: 1280px) {
+    .request {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .request__grid {
+        flex-wrap: wrap;
+    }
+}
