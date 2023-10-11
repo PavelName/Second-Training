@@ -14,6 +14,11 @@ body {
     font-weight: 400;
 }
 
+img {
+    display: block;
+    min-width: 100%;
+}
+
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif; */
 
@@ -24,6 +29,7 @@ font-family: 'Oswald', sans-serif; */
     --white-color: #fff;
     --background-color: #E5E5E5;
 }
+
 h1,
 h2,
 h3,
@@ -77,6 +83,7 @@ p {
     background-image: url(../img/First-screen.jpg);
     background-repeat: no-repeat;
     min-height: 740px;
+
 }
 
 .header__title {
@@ -145,6 +152,7 @@ p {
 }
 
 .about {
+    padding-top: 250px;
     min-height: 1080px;
     position: relative;
 }
@@ -175,7 +183,7 @@ p {
 }
 
 .about-h4 {
-    color:var(--accent-color);
+    color: var(--accent-color);
     text-align: center;
     font-size: 72px;
     font-style: normal;
@@ -186,7 +194,7 @@ p {
 }
 
 .about-h5 {
-    color:var(--dark-color);
+    color: var(--dark-color);
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -205,23 +213,86 @@ p {
     line-height: normal;
 }
 
+
+
+.project-h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    color: var(--dark-color);
+}
+
+.project__flex {
+    display: flex;
+}
+
+.project__flex-item {
+    margin-right: 30px;
+
+}
+
+.project__flex-item:last-child {
+    margin-right: 0;
+}
+
+.project-img {
+    margin-bottom: 45px;
+    width: 350px;
+    height: 380px;
+
+}
+
+.project__line {
+    margin-bottom: 15px;
+    width: 55px;
+    height: 6px;
+    background-color: var(--accent-color);
+}
+
+
+.project-h4 {
+    margin-bottom: 20px;
+    color: var(--dark-color);
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.project-p {
+    color: #999;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 @media screen and (max-width: 1280px) {
     .about__grid {
-       
+
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
-    
+
 }
+
 @media screen and (max-width: 780px) {
     .info {
         position: relative;
     }
 
     .about__grid {
-       
+
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
     }
-    
+
 }
