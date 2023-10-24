@@ -1,0 +1,25 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+.header {
+    min-height: 740px;
+    background-image: url(../images/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__title {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.logo {}
+
+.burger {}
+
+.burger__line {}
+
+.h1 {}
+
+.h4 {}
