@@ -1,14 +1,130 @@
 html {
   box-sizing: border-box;
 }
-*, *::before, *::after {
+
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif; */
+
 body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
 
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+:root {
+  --accent-color: #F7654A;
+  --dark-color: #404149;
+  --gray-color: #999;
+  --white-color: #fff;
+  --background-color: #E5E5E5;
+}
+
+.text-h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.text-h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+
+}
+
+.text-h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.text-p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.text-p-previews {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.header {
+  min-height: 740px;
+  background-image: url(../images/Rectangle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.header_logo {
+  width: 60px;
+  height: 60px;
+}
+
+.burger {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: var(--accent-color);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger__line {
+  display: block;
+  width: 21px;
+  height: 3px;
+  background-color: var(--white-color);
+  margin-bottom: 4px;
+
+}
+
+.burger__line:last-child {
+  margin-bottom: 0;
+}
+
+.h1 {
+  padding-top: 112px;
+  margin: 0 auto 17px;
+  max-width: 734px;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.h4 {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
