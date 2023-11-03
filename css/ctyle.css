@@ -273,7 +273,7 @@ p {
    font-style: normal;
    font-weight: 700;
    line-height: normal;
-   
+
 }
 
 .request__h5 {
@@ -282,7 +282,7 @@ p {
    font-style: normal;
    font-weight: 700;
    line-height: normal;
-   
+
 }
 
 .request__flex-right {}
@@ -301,6 +301,58 @@ p {
 
 .requect__icon {
    margin-right: 15px;
+}
+
+
+.services {
+   padding-top: 150px;
+}
+
+.services-h2 {
+   color: #000;
+   font-family: Oswald;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: uppercase;
+   margin-bottom: 55px;
+   text-align: center;
+}
+
+.services__grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 30px;
+   justify-items: center;
+}
+
+.services__grid-item {
+   padding: 54px 0;
+   width: 350px;
+   height: 250px;
+   background-color: var(--background-color);
+}
+
+.services__grid-images {
+
+   margin: 0 auto 30px;
+}
+
+.services-p {
+   color: #000;
+   text-align: center;
+   font-family: Oswald;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 0.02em;
+   text-align: center;
+   margin: 0 auto;
+   max-width: 172px;
+   text-transform: uppercase;
 }
 
 
@@ -366,7 +418,29 @@ p {
    .request__flex {
       flex-wrap: wrap;
    }
+
    .request__h5 {
       margin-bottom: 10px;
    }
 }
+
+/* media services */
+
+@media screen and (max-width: 1280px) {
+   .services {
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+
+   .services__grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+   }
+
+   .services__grid-item {
+      width: 100%;
+   }
+
+}
+
+@media screen and (max-width: 770px) {}
