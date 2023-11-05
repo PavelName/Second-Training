@@ -14,5 +14,13 @@
 // console.log(name.toUpperCase().toLowerCase());
 // const text = 'When \t\n you play a \t\n game of thrones you win or you die.';
 // console.log(text.slice(9, 15).trim().length);
-const name = 'Tirion';
-console.log(name.length.toString());
+// const name = 'Tirion';
+// console.log(name.length.toString());
+
+const sayHurrayThreeTimes = () => {
+  const text = 'hutty!';
+  const result = `${text} ${text} ${text}`;
+  return result;
+}
+const secondResult = sayHurrayThreeTimes();
+console.log(secondResult);
