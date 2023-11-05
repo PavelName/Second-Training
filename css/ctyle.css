@@ -351,6 +351,8 @@ p {
 }
 .portfolio__grid {
    display: grid;
+   /* justify-items: center; */
+   justify-content: center;
    grid-template-columns: repeat(4, 1fr);
    gap: 0;
 }
