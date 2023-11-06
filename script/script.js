@@ -17,10 +17,31 @@
 // const name = 'Tirion';
 // console.log(name.length.toString());
 
-const sayHurrayThreeTimes = () => {
-  const text = 'hutty!';
-  const result = `${text} ${text} ${text}`;
-  return result;
-}
-const secondResult = sayHurrayThreeTimes();
-console.log(secondResult);
+// const sayHurrayThreeTimes = () => {
+//   const text = 'hutty!';
+//   const result = `${text} ${text} ${text}`;
+//   return result;
+// }
+// const secondResult = sayHurrayThreeTimes();
+// console.log(secondResult);
+
+// const name = 'Google';
+// const replaced = (text, from, to) => {
+//   return text.replace(from, to);
+// };
+
+// console.log(replaced('Noogle', 'No', 'Mo'));
+
+// const text = 'welcome';
+
+// const adding = `${text}...`;
+
+// console.log(adding);
+
+
+
+
+const trancate = (text, length) => {
+  return text.slice(0, length) + '...';
+};
+console.log(trancate('numbers', 4));
