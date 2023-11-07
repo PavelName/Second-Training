@@ -365,7 +365,7 @@ p {
 
 .question {
    padding-top: 150px;
-   padding-bottom: 150px;
+   padding-bottom: 130px;
 }
 
 .question__h2 {
@@ -394,6 +394,7 @@ p {
    text-transform: uppercase;
    margin-bottom: 25px;
 }
+
 .question__h3.open::before {
    content: '';
    display: inline-block;
@@ -405,6 +406,7 @@ p {
    margin-right: 15px;
    transform: rotate(-90deg);
 }
+
 .question__h3.close::before {
    content: '';
    display: inline-block;
@@ -416,11 +418,11 @@ p {
    margin-right: 15px;
    /* transform: rotate(90deg); */
 }
-.question__h3.close + .question-p {
+
+.question__h3.close+.question-p {
    display: none;
 }
 
-.close {}
 
 .question-p {
    color: var(--gray-color);
@@ -428,9 +430,46 @@ p {
    margin-bottom: 37px;
 }
 
-.open {}
 
 
+.partners {
+   padding:100px 0;
+   background-color: var(--Dark, #404149);
+   /* max-height: 364px; */
+}
+
+.paetners-h2 {
+   margin-bottom: 50px;
+   text-align: center;
+   color: var(--White, #FFF);
+   font-family: Oswald;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+.partners__flex {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.partner__flex-item {
+   margin-right: 60px;
+}
+.partner__flex-item:last-child {
+   margin-right: 0;
+}
+.parter-image {
+   max-width: 170px;
+   /* margin-right: 64px; */
+   margin-bottom: 10px;
+}
+/* .parter-image:last-child {
+   margin-right: 0;
+} */
 
 /* media queries */
 @media screen and (max-width: 1280px) {
@@ -539,6 +578,7 @@ p {
       grid-template-columns: repeat(1, 1fr);
    }
 }
+
 /* media question */
 @media screen and (max-width: 1280px) {
    .question {
@@ -546,6 +586,22 @@ p {
    }
 }
 
+
+/* media partners */
+
+@media screen and (max-width: 1280px) {
+   .partners__flex {
+      justify-content: center;
+   }
+   .parter-image {
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+   /* .parter-image:last-child {
+      margin-right: 10px;
+   } */
+}
+
 @media screen and (max-width: 770px) {
-   
+
 }
