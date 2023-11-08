@@ -41,7 +41,7 @@
 
 
 
-const trancate = (text, length) => {
-  return text.slice(0, length) + '...';
-};
-console.log(trancate('numbers', 4));
+// const trancate = (text, length) => {
+//   return text.slice(0, length) + '...';
+// };
+// console.log(trancate('numbers', 4));
