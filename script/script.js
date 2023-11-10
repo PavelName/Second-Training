@@ -45,3 +45,13 @@
 //   return text.slice(0, length) + '...';
 // };
 // console.log(trancate('numbers', 4));
+// const print = (text = 'Titan') => console.log(text);
+// print();
+// print('Harry!');
+const getHiddenCard = (num, star = 4) => {
+  const slice = num.slice(12, 16);
+  const result = `${'*'.repeat(star)}${slice}`
+  return result;
+};
+console.log(getHiddenCard('1355677889235678'));
+console.log(getHiddenCard('1355677889235678', 2));
