@@ -464,6 +464,29 @@ p {
   margin-right: 0;
 }
 
+.reviews {
+  padding: 150px 0;
+}
+
+.reviews-h2 {
+}
+.reviews__grid {
+}
+.reviews__grid-items {
+}
+.reviews__grid-rect {
+}
+.reviews-quote {
+}
+.p-previews {
+}
+
+.previews-h4 {
+}
+.reviews-span {
+}
+
+
  @media screen and (max-width: 1280px) {
 
   .partners__flex {
