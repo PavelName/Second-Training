@@ -48,10 +48,31 @@
 // const print = (text = 'Titan') => console.log(text);
 // print();
 // print('Harry!');
-const getHiddenCard = (num, star = 4) => {
-  const slice = num.slice(12, 16);
-  const result = `${'*'.repeat(star)}${slice}`
+// const getHiddenCard = (num, star = 4) => {
+//   const slice = num.slice(12, 16);
+//   const result = `${'*'.repeat(star)}${slice}`
+//   return result;
+// };
+// console.log(getHiddenCard('1355677889235678'));
+// console.log(getHiddenCard('1355677889235678', 2));
+
+const capitalize = (str) => {
+  const strSlice = str.slice(0, 1).toUpperCase();
+  const result = `${strSlice}${str.slice(1)}`;
+  console.log(result);
   return result;
 };
-console.log(getHiddenCard('1355677889235678'));
-console.log(getHiddenCard('1355677889235678', 2));
+
+const capitalize1 = (str) => {
+  const strSlice = str[0].toUpperCase() + str.slice(1);
+  // const result = strSlice.toUpperCase();
+  return strSlice;
+};
+ let exam = 'hello';
+ const capitalize2 = (str) => `${str.slice(0, 1).toUpperCase()}${str.slice(1)}`;
+
+console.log(capitalize2('titan'));
+
+ console.log(exam.slice(1));
+console.log(capitalize('mellion'));
+console.log(capitalize1('trillion'));
