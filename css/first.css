@@ -368,7 +368,7 @@ p {
 }
 
 .quesiton {
-  padding: 150px 0;
+  padding: 120px 0 150px;
 }
 
 .oqestion-h2 {
@@ -429,7 +429,7 @@ p {
 
 .partners {
   background-color: var(--dark-color);
-  
+
 }
 
 .partners-h2 {
@@ -451,55 +451,111 @@ p {
   flex-wrap: wrap;
 }
 
-.partners__flex-item {
- 
-}
+.partners__flex-item {}
 
 .partners-image {
   margin-right: 64px;
   max-width: 170px;
   margin-bottom: 100px;
 }
+
 .partners-image:last-child {
   margin-right: 0;
 }
 
 .reviews {
-  padding: 150px 0;
+  padding: 145px 0 150px;
 }
 
 .reviews-h2 {
+  margin-bottom: 64px;
+  text-align: center;
+  color: #000;
+  font-family: Oswald;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
 }
+
 .reviews__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
+
 .reviews__grid-items {
+ 
 }
+
 .reviews__grid-rect {
+  background-color:#F7F7F7;
 }
+
 .reviews-quote {
+  color: var(--accent-color);
+  font-family: Oswald;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: -50px;
+  padding-left: 30px;
 }
+
 .p-previews {
+  color: var(--gray, #999);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  padding:0 30px 25px;
+  margin-bottom: 30px;
 }
 
 .previews-h4 {
+  color: #000;
+
+/* h4 */
+font-family: Oswald;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.42px;
 }
+
 .reviews-span {
+  color: var(--Accent, #F7654A);
+
+/* h4 */
+font-family: Oswald;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.42px;
 }
 
 
- @media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
 
   .partners__flex {
     justify-content: center;
   }
+
   .partners__flex-item {
     padding-left: 10px;
     padding-right: 10px;
-   
+
   }
-   .partners-image {
+
+  .partners-image {
     margin-bottom: 20px;
-  } 
+  }
 }
 
 
