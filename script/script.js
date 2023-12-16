@@ -56,23 +56,59 @@
 // console.log(getHiddenCard('1355677889235678'));
 // console.log(getHiddenCard('1355677889235678', 2));
 
-const capitalize = (str) => {
-  const strSlice = str.slice(0, 1).toUpperCase();
-  const result = `${strSlice}${str.slice(1)}`;
-  console.log(result);
-  return result;
-};
+// const capitalize = (str) => {
+//   const strSlice = str.slice(0, 1).toUpperCase();
+//   const result = `${strSlice}${str.slice(1)}`;
+//   console.log(result);
+//   return result;
+// };
 
-const capitalize1 = (str) => {
-  const strSlice = str[0].toUpperCase() + str.slice(1);
-  // const result = strSlice.toUpperCase();
-  return strSlice;
-};
- let exam = 'hello';
- const capitalize2 = (str) => `${str.slice(0, 1).toUpperCase()}${str.slice(1)}`;
+// const capitalize1 = (str) => {
+//   const strSlice = str[0].toUpperCase() + str.slice(1);
+//   // const result = strSlice.toUpperCase();
+//   return strSlice;
+// };
+//  let exam = 'hello';
+//  const capitalize2 = (str) => `${str.slice(0, 1).toUpperCase()}${str.slice(1)}`;
 
-console.log(capitalize2('titan'));
+// console.log(capitalize2('titan'));
 
- console.log(exam.slice(1));
-console.log(capitalize('mellion'));
-console.log(capitalize1('trillion'));
+//  console.log(exam.slice(1));
+// console.log(capitalize('mellion'));
+// console.log(capitalize1('trillion'));
+
+// let count = 0;
+// for(let i = 1; i <= 5; i++){
+//   count +=2;
+//   console.log(count);
+//   console.log(i);
+// }
+
+// let count = 10;
+// for(let i = count; i >= 1; i--){
+//   if(i > 5){
+//     console.log('hi');
+//   }else{
+//     count += i;
+//   }
+  
+//   console.log('i: ' + i);
+//   console.log('count:' + count);
+// }
+
+// let sum = 0;
+// for(let i = 1; i <= 10; i++){
+//   if(i % 2 === 0){
+//     sum +=2;
+//     console.log(`чётное число: ${sum}`)
+//   }else{
+//     sum += 1;
+//     console.log(`нечётное число: ${sum}`);
+//   }
+  
+//   console.log('i:' + i);
+//   console.log('sum: ' + sum);
+// }
+
+
+
