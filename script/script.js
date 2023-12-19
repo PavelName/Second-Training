@@ -110,5 +110,65 @@
 //   console.log('sum: ' + sum);
 // }
 
+// const count = ()=> {
+//   let days = 19;
+//   let evenDayAnmount = 200;
+//   let oddDayAnmount = 100;
+//   let total1 = 0;
+  
+//   for(let i = 1; i <= days; i++){
+//     if(i % 2 === 0){
+//       total1 = evenDayAnmount;
+//       console.log(i);
+//       console.log(`чётные дни: ${evenDayAnmount} протеина`);
+//     }else{
+//       total1 = oddDayAnmount;
+//       console.log(`нечётные дни: ${oddDayAnmount} протеина`);
+//     }
+//   }
+  
+// }
+// count();
 
 
+// let firstWeight = 16000;
+// let secondWeight = 5000;
+// let day = 0;
+// while(firstWeight > secondWeight){
+//   let resul = (firstWeight / 100) * 5;
+//   firstWeight -= resul;
+//   day++;
+// }
+// console.log(day);
+// let count = 10
+// for(let i = 1; i <= count; i++){
+//   console.log(i);
+// }
+// let count = 5;
+// for(let i = count; i >=0; i--){
+//   if(i > 2){
+//     console.log('hi');
+//   }
+//   console.log(i);
+// }
+// let str = 'titan';
+// for(let i = 0; i < str.length; i++){
+//   console.log(str[i]);
+// }
+ 
+// let str = 'Titan';
+// for(let i = str.length; i >= 0; i--){
+//   console.log(str[i]);
+// }
+
+function culk (distance){
+let percent = 0.25;
+if(distance > 10500){
+  percent = 0.35;
+}
+let miles = Math.floor(distance * percent);
+return miles;
+};
+
+console.log(`За полет получим ${culk(4500)} милей!`);
+console.log(`За полет получим ${culk(14500)} милей!`);
