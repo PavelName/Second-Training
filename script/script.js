@@ -172,3 +172,14 @@ return miles;
 
 console.log(`За полет получим ${culk(4500)} милей!`);
 console.log(`За полет получим ${culk(14500)} милей!`);
+
+function calculateSalary (salaryAmount){
+  let taxes = 0.25;
+  if(salaryAmount >= 100000){
+    taxes = 0.35;
+  }
+  let result = Math.round(salaryAmount * taxes);
+  let whiteSallary = salaryAmount - result;
+  return whiteSallary;
+};
+console.log(`Чистая ЗП: ${calculateSalary(145000)}`);
