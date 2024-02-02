@@ -161,25 +161,34 @@
 //   console.log(str[i]);
 // }
 
-function culk (distance){
-let percent = 0.25;
-if(distance > 10500){
-  percent = 0.35;
+// function culk (distance){
+// let percent = 0.25;
+// if(distance > 10500){
+//   percent = 0.35;
+// }
+// let miles = Math.floor(distance * percent);
+// return miles;
+// };
+
+// console.log(`За полет получим ${culk(4500)} милей!`);
+// console.log(`За полет получим ${culk(14500)} милей!`);
+
+// function calculateSalary (salaryAmount){
+//   let taxes = 0.25;
+//   if(salaryAmount >= 100000){
+//     taxes = 0.35;
+//   }
+//   let result = Math.round(salaryAmount * taxes);
+//   let whiteSallary = salaryAmount - result;
+//   return whiteSallary;
+// };
+// console.log(`Чистая ЗП: ${calculateSalary(145000)}`);
+
+let count = [1, 3, 5, 6, 68];
+for(let i = 0; i <= count.length - 1; i++){
+  console.log(count[i]);
 }
-let miles = Math.floor(distance * percent);
-return miles;
-};
-
-console.log(`За полет получим ${culk(4500)} милей!`);
-console.log(`За полет получим ${culk(14500)} милей!`);
-
-function calculateSalary (salaryAmount){
-  let taxes = 0.25;
-  if(salaryAmount >= 100000){
-    taxes = 0.35;
-  }
-  let result = Math.round(salaryAmount * taxes);
-  let whiteSallary = salaryAmount - result;
-  return whiteSallary;
-};
-console.log(`Чистая ЗП: ${calculateSalary(145000)}`);
+let count1 = [1, 3, 5, 6, 68];
+for(let i = count.length - 1; i > 0; i--){
+  console.log(count[i]);
+}
