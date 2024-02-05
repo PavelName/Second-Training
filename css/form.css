@@ -1,0 +1,14 @@
+body{
+  background-color: aquamarine;
+}
+textarea{
+  width: 200px;
+  height: 300px;
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  resize: vertical;
+  border: none;
+  border: 2px solid red;
+  border-radius: 6px 23px;
+}
