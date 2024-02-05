@@ -215,10 +215,10 @@
 
 // search min value
 
-let usersByDay = [4, 12, 5, 3, 2];
+let usersByDay = [1, 12, 5, 3, 2];
 console.log(usersByDay);
 
-let currentIndex = 0;
+let currentIndex = 1;
 let minValue = usersByDay[currentIndex];
 // console.log(minValue);
 
