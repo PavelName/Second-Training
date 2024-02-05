@@ -204,10 +204,28 @@
 // console.log(decodedMasege);
 // console.log(symbols[1]);
 
-let encodedSymbols = [2, 1, 3, 5];
-let swap = encodedSymbols[0];
-console.log(encodedSymbols);
-encodedSymbols[0] = encodedSymbols[1];
-console.log(encodedSymbols);
-encodedSymbols[1] = swap;
-console.log(encodedSymbols);
+// let encodedSymbols = [2, 1, 3, 5];
+// let swap = encodedSymbols[0];
+// console.log(encodedSymbols);
+// encodedSymbols[0] = encodedSymbols[1];
+// console.log(encodedSymbols);
+// encodedSymbols[1] = swap;
+// console.log(encodedSymbols);
+
+
+// search min value
+
+let usersByDay = [4, 12, 5, 3, 2];
+console.log(usersByDay);
+
+let currentIndex = 0;
+let minValue = usersByDay[currentIndex];
+// console.log(minValue);
+
+for (let j = currentIndex + 1; j <= usersByDay.length - 1; j++) {
+  if(usersByDay[j] < minValue){
+    minValue = usersByDay[j];
+    console.log('Новый минимальный элемент: ' + minValue);
+    }
+}
+console.log('Минимальный элемент: ' + minValue);
