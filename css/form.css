@@ -1,6 +1,11 @@
 body{
   background-color: aquamarine;
 }
+.video{
+  max-width: 100vh;
+  background-color: rgb(72, 0, 255);
+  height: 500px;
+}
 textarea{
   width: 200px;
   height: 300px;
